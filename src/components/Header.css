@@ -1,0 +1,39 @@
+.header {
+  background-color: #1a1a2e;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #b60000;
+}
+
+.nav-link {
+  color: #cccccc;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: white;
+}

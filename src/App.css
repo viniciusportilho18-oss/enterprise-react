@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ===== CONTATO ===== */
+.contato {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+  transition: background-color 0.4s;
+}
+
+.contato-destaque {
+  background-color: #eef4ff;
+}
+
+.contato h2 {
+  color: #0077b6;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.contato p {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.form-contato {
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.form-contato input,
+.form-contato select,
+.form-contato textarea {
+  padding: 12px 14px;
+  border: 1.5px solid #cccccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+
+.form-contato input:focus,
+.form-contato select:focus,
+.form-contato textarea:focus {
+  border-color: #08048e;
+}
+
+.form-contato textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.form-contato button {
+  background-color: #08048e;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-contato button:hover {
+  background-color: #060370;
+}
+
+.form-contato button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.erro {
+  color: #b60000;
+  font-size: 13px;
+}
